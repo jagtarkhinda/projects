@@ -33,74 +33,24 @@ display: inline-block;
     color: #fff;
 }
 
-@media screen and (max-width: 1024px){
-   .mainnav > li {
-       margin: 40px;
-   }
-}
-
-@media screen and (max-width: 768px){
-    .mainnav > li {
-        margin: 30px;
-    }
-    .mainnav > li > a {
-        font-size: 14px
-    }
- }
-
- @media screen and (max-width: 425px){
-     .mainnav{
-         display: none;
-         clear: both;
-     }
-    
-    .mainnavsmall{
-      
-        background-color: #333;
-        overflow: hidden;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        clear: both;
-
-    }
-    .mainnavsmall> li{
-    display: block;
-    margin: 30px;
-    }
-
-    .mainnavsmall> li > a {
-        margin-left: 20px;
-        text-align: left;
-        font-size: 15px;
-        text-decoration: none;
-        color: #fff;
-    }
-    /* HAMBURGER ICON */
-    .menu{
-        padding: 2%;
-        display: inline-block;  
-        clear: both;
-    }
-         /*END HAMBURGER ICON */
-}
 /*******END NAVIGATION CSS*******/
 
-.navtop{
+/*ABOVE NAV BAR*/
+.navtop {
     display: block;
     width: 80%;
     margin: 0 auto;
 }
 
-.navtopleft{
+.navtopleft {
     float: left;
     margin-top: 20px;
 }
 
-.navtopright{
+.navtopright {
     float: right;
 }
-.contactinfo{
+.contactinfo {
     margin-left: 50px;
     margin-right: 30px;
     font-size: 30px;
@@ -109,7 +59,7 @@ display: inline-block;
 .contactinfo > span {
     color: #197278;
 }
-.contactinfo > p{
+.contactinfo > p {
     color: #2E4360;
 }
 
@@ -119,3 +69,61 @@ display: inline-block;
     font-size: 40px;
     color: #2E4360;
 }
+/*END ABOVE NAV BAR*/
+
+/*MEDIA QUERIES*/
+
+    /*MAX 1024*/
+@media screen and (max-width: 1024px){
+    /*******NAVIGATION CSS*******/
+    .mainnav > li {
+        margin: 40px;
+    }
+ }
+ 
+     /*MAX 768*/
+ @media screen and (max-width: 768px){
+     .mainnav > li {
+         margin: 30px;
+     }
+     .mainnav > li > a {
+         font-size: 14px
+     }
+  }
+ 
+     /*MAX 425*/
+  @media screen and (max-width: 425px){
+       /*NAVIGATION CSS*/
+      .mainnav{
+          display: none;
+          clear: both;
+      }
+     .mainnavsmall{
+         background-color: #333;
+         overflow: hidden;
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         clear: both;
+     }
+     .mainnavsmall> li{
+     display: block;
+     margin: 30px;
+     }
+     .mainnavsmall> li > a {
+         margin-left: 20px;
+         text-align: left;
+         font-size: 15px;
+         text-decoration: none;
+         color: #fff;
+     }
+     /* HAMBURGER ICON */
+     .menu{
+         padding: 2%;
+         display: inline-block;  
+         clear: both;
+     }
+ }
+
+ 
+/*END MEDIA QUERIES*/

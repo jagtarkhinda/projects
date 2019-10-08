@@ -1,0 +1,83 @@
+/*******NAVIGATION CSS*******/
+.menu{
+    display: none;
+}
+
+.mainnav{
+    background-color: #333;
+  overflow: hidden;
+  margin: 0 auto;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.mainnav > li{
+display: inline-block;
+ margin: 50px;
+ text-align: center;
+}
+
+.mainnav > li > a {
+    display:block;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+   .mainnav > li {
+       margin: 40px;
+   }
+}
+
+@media screen and (max-width: 768px){
+    .mainnav > li {
+        margin: 30px;
+    }
+    .mainnav > li > a {
+        font-size: 14px
+    }
+ }
+
+ @media screen and (max-width: 425px){
+     .mainnav{
+         display: none;
+     }
+    
+    .mainnavsmall{
+        background-color: #333;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+    .mainnavsmall> li{
+    display: block;
+    margin: 30px;
+    }
+
+    .mainnavsmall> li > a {
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+    /* HAMBURGER ICON */
+    .menu{
+        padding: 2%;
+        display: inline-block;
+    }
+        .menu > div {
+          width: 35px;
+          height: 5px;
+          background-color: black;
+          margin: 6px 0;
+        }
+         /*END HAMBURGER ICON */
+}
+/*******END NAVIGATION CSS*******/

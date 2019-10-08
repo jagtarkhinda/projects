@@ -79,19 +79,44 @@ display: inline-block;
     .mainnav > li {
         margin: 40px;
     }
+    /*ABOVE NAV BAR*/
+    .navtopleft {
+        margin-top: 10px;
+    }
+    .contactinfo {
+        margin-left: 30px;
+    }
+    .icn{
+        font-size: 30px;;
+    }
+    .contactinfo > span {
+        font-size: 20px;
+    }
+    .contactinfo > p {
+        font-size: 20px;
+    }
+      /*END ABOVE NAV BAR*/
  }
  
-     /*MAX 768*/
+ /*******MAX 768**********/
  @media screen and (max-width: 768px){
+     /*******NAVIGATION CSS*******/
      .mainnav > li {
          margin: 30px;
      }
      .mainnav > li > a {
          font-size: 14px
      }
+      /*******END NAVIGATION CSS*******/
+        /*ABOVE NAV BAR*/
+        .navtopleft > img {
+            width: 170px;
+            height: 70px;
+        }
+         /*END ABOVE NAV BAR*/
   }
  
-     /*MAX 425*/
+ /*******MAX 425**********/
   @media screen and (max-width: 425px){
        /*NAVIGATION CSS*/
       .mainnav{
@@ -123,7 +148,13 @@ display: inline-block;
          display: inline-block;  
          clear: both;
      }
+      /*END NAVIGATION CSS*/
+        /*ABOVE NAV BAR*/
+        .navtopright{
+            display: none;
+        }  
+        /*END ABOVE NAV BAR*/
  }
 
- 
+
 /*END MEDIA QUERIES*/

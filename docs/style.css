@@ -81,7 +81,7 @@ display: inline-block;
 }
 
 .firstelement > div {
-   background-color: rgb(89, 183, 153,0.7);  
+   background-color: rgb(227, 205, 184,0.7);  
    /* height: 500px; */
    flex: 1;
    font-size: 80px;
@@ -89,10 +89,19 @@ display: inline-block;
     text-align: center;
     padding: 5%;
 }
-
-
+.fecode{
+    color: #59B799;
+}
+.fedo{
+    font-size: 100px;
+    font-weight: bolder;
+}
 
 /*********END FIRST ELEMENT**********/
+
+
+
+
 /*=========================
 ===MEDIA QUERIES===
 ========================*/

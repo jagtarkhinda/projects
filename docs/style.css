@@ -1,27 +1,27 @@
+/*********DEFAULT STYLES**********/
+
 /*******NAVIGATION CSS*******/
 .menu{
     display: none;
     clear: both;
 }
 
-.wholenav{
+/* .wholenav{
     clear: both !important;
-}
+} */
 
 .mainnav{
     background-color: #333;
-  overflow: hidden;
-  margin: 0 auto;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   clear: both;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    clear: both;
 }
 
 .mainnav > li{
 display: inline-block;
- margin: 50px;
+ height: 100px;
+ padding: 2%;
  text-align: center;
 }
 
@@ -71,13 +71,41 @@ display: inline-block;
 }
 /*END ABOVE NAV BAR*/
 
-/*MEDIA QUERIES*/
+/*********FIRST EMEMENT**********/
+.firstelement{
+    clear: both;
+    display: flex;
+   justify-content:center;
+   align-content: center;
+   margin: 1% 0% 0% 0%;
+}
+
+.firstelement > div {
+   background-color: rgb(89, 183, 153,0.7);  
+   /* height: 500px; */
+   flex: 1;
+   font-size: 80px;
+   font-weight: bold;
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+/*********END FIRST ELEMENT**********/
+/*=========================
+===MEDIA QUERIES===
+========================*/
 
     /*MAX 1024*/
 @media screen and (max-width: 1024px){
     /*******NAVIGATION CSS*******/
     .mainnav > li {
-        margin: 40px;
+        height: 80px;
+    }
+
+    .mainnavsmall > li > a {
+        font-size: 15px;
     }
     /*ABOVE NAV BAR*/
     .navtopleft {
@@ -102,7 +130,7 @@ display: inline-block;
  @media screen and (max-width: 768px){
      /*******NAVIGATION CSS*******/
      .mainnav > li {
-         margin: 30px;
+         height: 60px;
      }
      .mainnav > li > a {
          font-size: 14px
@@ -127,14 +155,21 @@ display: inline-block;
          background-color: #333;
          overflow: hidden;
          list-style-type: none;
-         margin: 0;
-         padding: 0;
          clear: both;
      }
      .mainnavsmall> li{
      display: block;
-     margin: 30px;
+     height: 60px;
+     padding: 1%;
      }
+     .mainnavsmall > li > a{
+        font-size: 18px !important;
+    }
+
+     .menu:active + .mainnavsmall > li {
+        margin: 0px;
+     }
+    
      .mainnavsmall> li > a {
          margin-left: 20px;
          text-align: left;
@@ -142,12 +177,13 @@ display: inline-block;
          text-decoration: none;
          color: #fff;
      }
+   
      /* HAMBURGER ICON */
      .menu{
          padding: 2%;
-         display: inline-block;  
-         clear: both;
-         margin-top: 10%;
+         display: block;  
+          margin-top: 10%;
+          float: left;
      }
       /*END NAVIGATION CSS*/
         /*ABOVE NAV BAR*/
@@ -174,8 +210,14 @@ display: inline-block;
             bottom:0;
             margin: 0 auto;
         }
-     
         /*END ABOVE NAV BAR*/
+/*********FIRST ELEMENT**********/
+    .firstelement{
+        position: absolute;
+        top: 100px;
+        z-index: -1;
+    }        
+
  }
 
 

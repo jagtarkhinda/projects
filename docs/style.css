@@ -387,6 +387,9 @@ display: inline-block;
         z-index: -1;
         clear: both;
     }     
+    .finside{
+        font-size: 50px;
+    }
    
 /*********END FIRST ELEMENT**********/   
 

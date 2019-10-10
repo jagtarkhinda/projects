@@ -1,3 +1,24 @@
+/*=========================
+===TRICK TO ALIGN TEXT VERTICALLY IN GRID===
+
+1. Inside the grid , assign any child of grid a class and name it for ex (flx)
+<div class="forthrow flx">
+            <div class="react"><i class="fab fa-react"></i> React</div> 
+    </div>
+
+2. the above div is a child element of grid, the inner element has a class react.
+
+3. here is the css to apply
+
+.flx{
+    display: flex;
+    justify-content: center;
+}
+
+.react{
+    align-self: center;
+}
+========================*/
 /*********DEFAULT STYLES**********/
 body{
     margin: 0px;

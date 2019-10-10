@@ -20,6 +20,9 @@
 }
 ========================*/
 /*********DEFAULT STYLES**********/
+html{
+    width: 100vw;
+}
 body{
     margin: 0px;
     width: 100vw;
@@ -109,7 +112,7 @@ display: inline-block;
    margin: 1% 0% 0% 0%;
 }
 
-.firstelement > div {
+.firstelement  div {
    background-color: rgb(227, 205, 184,0.7);  
    /* height: 500px; */
    -webkit-box-flex: 1;
@@ -306,23 +309,24 @@ display: inline-block;
        /*NAVIGATION CSS*/
       .mainnav{
           display: none;
-          clear: both;
+          /* clear: both; */
       }
      
      .mainnavsmall{
          background-color: #333;
          overflow: hidden;
-         display: inline-block;
+         display: block;
          /* position: relative; */
          /* left: 20px; */
          width: 100vw;
+         margin: 0 auto;
          list-style-type: none;
-         clear: both;
+         /* clear: both; */
      }
      .mainnavsmall> li{
-     display: inline-block;
+     /* display: block; */
      height: 60px;
-     width: 100vw;
+     /* width: 100vw; */
      padding: 1%;
      }
      .mainnavsmall > li > a{
@@ -348,7 +352,7 @@ display: inline-block;
          display: block; 
          font-size: 50px; 
           margin-top: 10%;
-          float: left;
+          /* float: left; */
      }
       /*END NAVIGATION CSS*/
         /*ABOVE NAV BAR*/
@@ -385,6 +389,101 @@ display: inline-block;
     }     
    
 /*********END FIRST ELEMENT**********/   
+
+/*********SECOND COMP**********/
+.secondcomp{
+    position: inherit;
+    top: 500; 
+     /* margin-right: -101.5px; */
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2em;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    clear: both;
+}
+.seleftpane{
+    grid-column: 1 / -1;
+    grid-row: 1 / 4; 
+}
+
+.firstrow{
+  
+    grid-column: 1 / -1;
+    grid-row: 4/6; 
+}
+.secondrow{
+    
+    grid-column: 1 / 7;
+    grid-row: 6/8; 
+
+}
+.thirdrow{
+   
+    grid-column: 7/ -1;
+    grid-row: 6/8;
+   
+}
+.forthrow{
+   
+    grid-column: 1/7;
+    grid-row: 8/10;
+   
+}
+.fifthrow{
+    
+    grid-column: 7/-1;
+    grid-row: 8/10;
+    
+}
+.sixthrow{
+    
+    grid-column: 1/7;
+    grid-row: 10/12;
+   
+}
+.seventhrow{
+  
+    grid-column: 7/-1;
+    grid-row: 10/12;
+  
+
+}
+.eighthrow{
+   
+    grid-column: 1/7;
+    grid-row: 12/14;
+  
+
+}
+.ninthrow{
+   
+    grid-column: 7/-1;
+    grid-row: 12/14;
+   
+}
+.tenthrow{
+  
+    grid-column: 1/7;
+    grid-row: 14/16;
+   
+}
+.elerow{
+    
+    grid-column: 7/-1;
+    grid-row: 14/16;
+    
+}
+
+
+.android,.ios,.react,.web,.java,.php,.js,.html,.css,.db{
+   
+}
+
+/*********END SECOND COMP**********/
+
 
  }
 /*END MEDIA QUERIES*/

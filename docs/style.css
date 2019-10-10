@@ -109,10 +109,9 @@ display: inline-block;
            justify-content:center;
    -ms-flex-line-pack: center;
        align-content: center;
-   margin: 1% 0% 0% 0%;
 }
 
-.firstelement  div {
+.finside{
    background-color: rgb(227, 205, 184,0.7);  
    /* height: 500px; */
    -webkit-box-flex: 1;
@@ -121,7 +120,7 @@ display: inline-block;
    font-size: 80px;
    font-weight: bold;
     text-align: center;
-    padding: 5%;
+   padding: 5%;
 }
 .fecode{
     color: #59B799;
@@ -386,17 +385,15 @@ display: inline-block;
         position: absolute;
         top: 150px;
         z-index: -1;
+        clear: both;
     }     
    
 /*********END FIRST ELEMENT**********/   
 
 /*********SECOND COMP**********/
 .secondcomp{
-    position: inherit;
-    top: 500; 
-     /* margin-right: -101.5px; */
-    margin: 0 auto;
-    /* margin-top: 20px; */
+    position: absolute;
+    top: 1000px; 
     width: 100%;
     font-weight: 500;
     font-size: 1.2em;

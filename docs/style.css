@@ -135,7 +135,7 @@ display: inline-block;
 }
 
 .finside{
-   /* background-color: rgb(227, 205, 184,0.7);   */
+   background-color: rgb(227, 205, 184,0.7);  
    /* height: 500px; */
    -webkit-box-flex: 1;
        -ms-flex: 1;
@@ -304,7 +304,8 @@ display: inline-block;
     }
     /*ABOVE NAV BAR*/
     .navtopleft {
-        margin-top: 10px;
+        margin-top: -10px;
+        /* margin-top: 10px; */
     }
     .contactinfo {
         /* margin-left: 30px; */
@@ -444,7 +445,7 @@ display: inline-block;
 /*********FIRST ELEMENT**********/
     .firstelement{
         position: absolute;
-        top: 150px;
+        top: 20%;
         z-index: -1;
         clear: both;
     }     
@@ -460,7 +461,7 @@ display: inline-block;
 /*********SECOND COMP**********/
 .secondcomp{
     position: absolute;
-    top: 620px; 
+    top: 65%; 
     width: 100%;
     font-weight: 500;
     font-size: 1.2em;

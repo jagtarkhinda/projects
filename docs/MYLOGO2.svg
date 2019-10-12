@@ -5,7 +5,7 @@
    <![CDATA[
     @font-face {
         font-family: Modak;
-        src: url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+        src: url("https://fonts.googleapis.com/css?family=Modak&display=swap;charset=utf-8;base64,...");
     }
    ]]>
  </style>

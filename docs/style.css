@@ -139,7 +139,8 @@ display: inline-block;
 .firstelement{
     height: 100%;
     width: 100%;
-    background-color: rgb(227, 205, 184,0.7);  
+    background-color: rgba(246, 247, 235, 1);
+    /* background-color: rgb(227, 205, 184,0.7);   */
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -182,7 +183,7 @@ display: inline-block;
     font-size: 1.2em;
     padding: 50px;
     text-align: center;
-    background-color: rgba(25, 50, 60, 1);
+    background-color: rgba(173, 52, 62, 0.8);
     /* background-color: rgba(245, 245, 245, 1); */
     /* color: white; */
     display: grid;
@@ -369,7 +370,7 @@ display: inline-block;
     padding: 50px;
     text-align: center;
     /* background-color: rgb(227, 205, 184,0.1);   */
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(246, 247, 235, 1);
     /* color: white; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);

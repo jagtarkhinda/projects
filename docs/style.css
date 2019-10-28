@@ -379,16 +379,17 @@ display: inline-block;
     /* height: 100%; */
     /* margin-top: 20px; */
     color: #2E294E;
+    height: 100%;
     font-weight: 400;
     font-size: 1.2em;
-    padding: 50px;
+    /* padding: 50px; */
     text-align: center;
     /* background-color: rgb(227, 205, 184,0.1);   */
     background-color: rgba(246, 247, 235, 1);
     /* color: white; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto 100px auto 200px;
+    grid-template-rows: auto 20px auto auto;
     -webkit-column-gap: 10px;
             column-gap: 10px;
     row-gap: 10px;
@@ -398,8 +399,9 @@ display: inline-block;
     -ms-flex-item-align: center;
         align-self: center;
    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 300;
     border: 1px solid black;
 width: -webkit-max-content;
@@ -423,6 +425,32 @@ width: max-content;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+}
+
+.thirdrow .desc {
+    flex: 1;
+}
+
+.thirdcomp .secondrow{
+    grid-column: 1/5;
+}
+.thirdcomp .thirdrow{
+    grid-column: 5/9;
+}
+.thirdcomp .forthrow{
+    grid-column: 9/13;
+}
+.thirdcomp .fifthrow{
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+.thirdcomp .sixth{
+    grid-column: 5/9;
+    grid-row: 4/5;
+}
+.thirdcomp .seventh{
+    grid-column: 9/13;
+    grid-row: 4/5;
 }
 
 /*********END THIRD ELEMENT**********/

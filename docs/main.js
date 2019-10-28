@@ -56,7 +56,7 @@ $(document).ready(function () {
 /*******SCROLLING PAGE UP*******/
 $(document).ready(function () {
     $("#uparrow").on('click', function (event) {
-        if ($('body').height() <= ($(window).scrollTop())) {
+        if ($('body').height() <= ($(window).scrollTop() -20)) {
             $('html, body').animate({
                 scrollTop: $('#top').offset().top
             }, 800, function () {

@@ -238,7 +238,9 @@
         <!-- END THIRD COMPONENT -->
 
         <!--FORTH COMPONENT-->
-        <div class="forthcomp" id="contact">
+      
+        <form class="forthcomp" id="contact">
+        
                 <div class="tr1">
                         <div class="o">LET'S TALK</div>
                 </div>
@@ -250,20 +252,39 @@
                                 I am a Web and Mobile Developer. I love
                                 to code and passionate about my work.</div>
                 </div>
-
-                <!-- <div class="tr3 flx"><div class="bg">Feel Free to talk to me in <span>ENGLISH</span>
-                        <span>PUNJABI</span> OR 
-                        <span>HINDI</span></div>
-                </div> -->
-                <div class="tr4 flx"></div>
-                <div class="tr5 flx"></div>
-                <div class="tr6 flx"></div>
-                <!--END FORTH COMPONENT-->
-
-                <!-- UP ARROW -->
-                <div class="uparrow" id="uparrow"><img src="https://img.icons8.com/nolan/64/000000/sort-up--v2.png">
+                <div class="tr3 flx">
+                         <input class="name sm" type="text" placeholder="Enter Your Name*" onfocus="this.placeholder=''" onblur="this.placeholder='Enter Your Name*'">
                 </div>
-                <!-- END UP ARROW -->
+                <div class="tr4 flx">
+                        <input class="mail sm" type="text" placeholder="Email Address*" onfocus="this.placeholder=''" onblur="this.placeholder='Email Address*'">
+                </div>
+                <div class="tr5 flx">
+                        <input class="phno sm" type="number" placeholder="Phone No" onfocus="this.placeholder=''" onblur="this.placeholder='Phone No*'">
+                </div>
+                <div class="tr6 flx">
+                                <select class="select sm" name="service">
+                                                <option>Choose Services</option>
+                                                <option>Mobile App</option>
+                                                <option>Website</option>
+                                                <option>Game Development</option>
+                                                <option>Programming</option>
+                                                </select>
+                </div>
+                <div class="tr7 flx">
+                        <textarea class="msg sm" rows="4" placeholder="Enter your Message*" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your Message*'"></textarea>
+                </div>
+                <div class="tr8 flx">
+                        <input class="btn" type="button" value="SUBMIT">
+                </div>
+
+                <!--END FORTH COMPONENT-->
+        
+        </form>
+
+        <!-- UP ARROW -->
+        <div class="uparrow" id="uparrow"><img src="https://img.icons8.com/nolan/64/000000/sort-up--v2.png">
+        </div>
+        <!-- END UP ARROW -->
 
 
 
@@ -299,27 +320,27 @@
 
 
 
-                <script src="typed.min.js"></script>
-                <script>
-                        var options = {
-                                strings: ['', "Web Development",
-                                        "App development",
-                                        "Game Development",
-                                        "Programming"
-                                ],
-                                typeSpeed: 100,
-                                loop: true
-                        };
-                        var typed = new Typed('#changeit', options);
-                </script>
-                <script src="./jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                        crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                        crossorigin="anonymous"></script>
-                <script src="./main.js"></script>
+        <script src="typed.min.js"></script>
+        <script>
+                var options = {
+                        strings: ['', "Web Development",
+                                "App development",
+                                "Game Development",
+                                "Programming"
+                        ],
+                        typeSpeed: 100,
+                        loop: true
+                };
+                var typed = new Typed('#changeit', options);
+        </script>
+        <script src="./jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
 </body>
 
 </html>

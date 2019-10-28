@@ -8,8 +8,10 @@ $(document).ready(function () {
 
 })
 /*******NAVIGATION JS*******/
+var menumain = document.getElementById("nav");
+
 function showMenu() {
-    var menumain = document.getElementById("nav");
+   
     var hamburger = document.getElementsByClassName("menu")[0];
     if (menumain.className === "mainnav") {
         hamburger.sty
@@ -27,6 +29,7 @@ $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {
         console.log("worked");
+        menumain.className = "mainnav"
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior

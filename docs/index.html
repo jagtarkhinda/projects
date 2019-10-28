@@ -17,6 +17,7 @@
 
 <body>
 
+
         <!-- NAV TOP CONTENT -->
         <div class="navtop">
                 <div class="navtopleft">
@@ -43,10 +44,10 @@
                         <!--END HAMBURGER ICON -->
                         <!-- NAV BAR -->
                         <nav class="mainnav" id="nav">
-                                <li><a href="">HOME</a></li>
-                                <li><a href="#services">MY WORK</a></li>
-                                <li><a href="">BACKGROUND</a></li>
-                                <li class="makecontact"><a href="">CONTACT</a></li>
+                                <li><a href="#top">HOME</a></li>
+                                <li><a href="#services">SERVICES</a></li>
+                                <li><a href="#work">MY WORK</a></li>
+                                <li class="makecontact"><a href="#contact">CONTACT</a></li>
                                 <!-- <li><a href="">Resources</a></li>
                                 <li><a href="">Press</a></li> -->
                         </nav>
@@ -57,18 +58,19 @@
         <!--END NAVIGATION -->
 
         <!-- FIRST ELEMENT -->
-        <div class="firstelement">
+        <div class="firstelement" id="top">
                 <div class="finside">
-                        <span class="fedo">Do </span>you need help with your <span
-                                class="fecode"><strong>Programming</strong></span> <span
-                                class="feass">Assignments</span> or
-                        <span class="feproj">Projects</span>?
+                        <p><span class="fedo">Do </span>you need help with</p>
+                        <p><span class="fecode" id="changeit"><strong>Programming</strong></span></p>
+                        <p> <span class="feass">Assignments</span>
+                                or
+                                <span class="feproj">Projects</span>? </p>
                 </div>
         </div>
         <!--END FIRST ELEMENT -->
 
         <!-- SECOND ELEMENT -->
-        <div class="secondcomp">
+        <div class="secondcomp" id="services">
                 <!-- <div class="seleftpane">
                         <img src="./usepic.jpg">
                         <p>Hi! I am a Web and Mobile App Developer</p>
@@ -138,7 +140,7 @@
         </div>
         <!-- END SECOND COMPONENT -->
         <!-- THIRD ELEMENT -->
-        <div class="thirdcomp" id="services" id="rr">
+        <div class="thirdcomp" id="work" id="rr">
                 <!-- <div class="seleftpane">
                                 <img src="./usepic.jpg">
                                 <p>Hi! I am a Web and Mobile App Developer</p>
@@ -147,25 +149,33 @@
                         <div class="o">RECENT WORK</div>
                 </div>
                 <div class="secondrow flx">
-                        <div class="detail"><p>Detail</p></div>
+                        <div class="detail">
+                                <p>Detail</p>
+                        </div>
                         <div class="appdev">FIFA iOS App</div>
                         <div class="desc">iOS and Watch OS Application to get updates about upcoming FIFA mathces</div>
                 </div>
                 <div class="thirdrow flx">
-                        <div class="detail"><p>Detail</p></div>
+                        <div class="detail">
+                                <p>Detail</p>
+                        </div>
                         <div class="gamedev">Student Management System</div>
                         <div class="desc">If you have any college assignemnts to build a game natively on andorid or iOS
                                 I will do that for you.</div>
                 </div>
                 <div class="forthrow flx">
-                        <div class="detail"><p>Detail</p></div>
+                        <div class="detail">
+                                <p>Detail</p>
+                        </div>
                         <div class="webdev">KWIKSERVE</div>
                         <div class="desc">Get help in creating websites whether it's static, dynamic, responsive,
                                 wordpress or in plain
                                 HTML/CSS</div>
                 </div>
                 <div class="fifthrow flx">
-                        <div class="detail"><p>Detail</p></div>
+                        <div class="detail">
+                                <p>Detail</p>
+                        </div>
                         <div class="logprog">Quiz App</div>
                         <div class="desc">Apart from websites and mobile apps, I can create normal programs in Java,
                                 Swift, JavaScript etc. </div>
@@ -174,14 +184,15 @@
         <!-- END THIRD COMPONENT -->
 
         <!--FORTH COMPONENT-->
-        <div class="forthcomp">
+        <div class="forthcomp" id="contact">
                 <div class="tr1">
-                        <div class="o">WHO AM I</div>
+                        <div class="o">LET'S TALK</div>
                 </div>
 
-                <div class="tr2 flx4"><div class="bio">Hello! My name is 
-                        <span style="color: #42B896;;">Jagtar Singh.</span>
-                        I am a Web and Mobile Developer. I love to code and passionate about my work.</div>
+                <div class="tr2 flx4">
+                        <div class="bio">Hello! My name is
+                                <span style="color: #42B896;;">Jagtar Singh.</span>
+                                I am a Web and Mobile Developer. I love to code and passionate about my work.</div>
                 </div>
 
                 <!-- <div class="tr3 flx"><div class="bg">Feel Free to talk to me in <span>ENGLISH</span>
@@ -192,21 +203,11 @@
                 <div class="tr4 flx"></div>
                 <div class="tr5 flx"></div>
                 <div class="tr6 flx"></div>
-        <!--END FORTH COMPONENT-->
+                <!--END FORTH COMPONENT-->
 
-
-
-
-
-
-
-
-
-
-
-        
-
-
+                <!-- UP ARROW -->
+                <div class="uparrow" id="uparrow"><img src="https://img.icons8.com/bubbles/50/000000/up.png"></div>
+                <!-- END UP ARROW -->
 
 
 
@@ -235,16 +236,36 @@
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
-        <script src="./main.js"></script>
+
+
+
+
+
+
+
+                <script src="typed.min.js"></script>
+                <script>
+
+                        var options = {
+                                strings: ['', "Web Development",
+                                        "App development",
+                                        "Game Development",
+                                        "Programming"],
+                                typeSpeed: 100,
+                                loop: true
+                        };
+                        var typed = new Typed('#changeit', options);
+                </script>
+
+
+                <script src="./jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                        crossorigin="anonymous"></script>
+                <script src="./main.js"></script>
 </body>
 
 </html>

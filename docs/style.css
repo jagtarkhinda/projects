@@ -29,9 +29,20 @@ body{
     background-color: rgb(227, 205, 184,0.7);  
     margin: 0 auto;
     height: 100%;
+
     /* background-color: #CECECE; */
     width: 100%;
 }
+
+
+.uparrow{
+    color: #42B896;
+    font-size: 4em;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
 /*******NAVIGATION CSS*******/
 .menu{
     display: none;
@@ -141,6 +152,7 @@ display: inline-block;
     width: 100%;
     background-color: rgba(246, 247, 235, 1);
     /* background-color: rgb(227, 205, 184,0.7);   */
+   s /* background-color: #010400; */
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -183,7 +195,8 @@ display: inline-block;
     font-size: 1.2em;
     padding: 50px;
     text-align: center;
-    background-color: rgba(173, 52, 62, 0.8);
+    /* background-color: rgba(173, 52, 62, 0.8); */
+    background-color: rgba(7, 37, 133, 0.8);
     /* background-color: rgba(245, 245, 245, 1); */
     /* color: white; */
     display: grid;
@@ -526,6 +539,9 @@ width: max-content;
     /*MAX 1024*/
 @media screen and (max-width: 1024px){
     /*******NAVIGATION CSS*******/
+    .uparrow{
+        font-size: 3em;      
+    }
     .wholenav{
         top: 20%;
     }
@@ -576,6 +592,9 @@ width: max-content;
  /*******MAX 768**********/
  @media screen and (max-width: 768px){
      /*******NAVIGATION CSS*******/
+     .uparrow{
+        font-size: 2em;      
+    }
      .mainnav > li {
          /* height: 60px; */
      }

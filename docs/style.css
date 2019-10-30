@@ -18,6 +18,8 @@
 .react{
     align-self: center;
 }
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif
 ========================*/
 /*********DEFAULT STYLES**********/
 html{
@@ -26,6 +28,8 @@ html{
     height: 100%;
 }
 body{
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-weight: ; */
     background-color: rgb(227, 205, 184,0.7);  
     margin: 0 auto;
     height: 100%;
@@ -45,8 +49,13 @@ body{
 
 /*******NAVIGATION CSS*******/
 .menu{
+    
     display: none;
     clear: both;
+}
+
+#nav{
+    font-family: 'Raleway', sans-serif;
 }
 
 .wholenav{
@@ -85,6 +94,8 @@ display: inline-block;
   
     /* background-color: #42B896; */
     padding: 1%;
+    border-bottom: 1px solid #42B896;
+    /* font-size: 22px; */
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
 }
@@ -92,6 +103,7 @@ display: inline-block;
 .mainnav > .makecontact > a {
     color: #42B896;
     font-weight: 700;
+    font-size: 25px;
 }
 
 /*******END NAVIGATION CSS*******/
@@ -144,6 +156,8 @@ display: inline-block;
 .firstelement{
     height: 100%;
     width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
     background-color: rgba(246, 247, 235, 1);
     /* background-color: rgb(227, 205, 184,0.7);   */
     /* background-color: #010400; */
@@ -187,11 +201,11 @@ display: inline-block;
     /* margin-top: 20px; */
     color: white;
     font-weight: 400;
-    font-size: 1.2em;
     padding: 50px;
     text-align: center;
     /* background-color: rgba(173, 52, 62, 0.8); */
-    background-color: rgba(7, 37, 133, 0.8);
+    /* background-color: rgba(7, 37, 133, 0.8); */
+    background-color: rgba(25, 50, 60, 1);
     /* background-color: rgba(245, 245, 245, 1); */
     /* color: white; */
     display: grid;
@@ -204,7 +218,8 @@ display: inline-block;
 }
 
 .appdev, .gamedev, .webdev, .logprog{
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .secondrow, .thirdrow, .forthrow, .fifthrow, .sixthrow, .seventhrow, .ninthrow, .tenthrow, .elerow{
@@ -334,12 +349,13 @@ display: inline-block;
                 align-content: center;
 }
 .desc{
+    font-family: 'Raleway', sans-serif;
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
     text-align: center;
     padding: 10px;
-    font-size: 15px;
+    font-size: 17px;
     text-justify: none;
 }
 
@@ -562,7 +578,9 @@ width: max-content;
 .forthcomp{
     height: auto;
 }
+
 .sm{
+    font-family: 'Raleway', sans-serif;
     padding: 20px;
     font-size: 0.8em;
     margin-bottom: 20px;
@@ -596,9 +614,14 @@ width: max-content;
 .select{
     font-size: 0.8em;
     color: rgba(246, 247, 235, 1);
+  
 }
-
+.select option{
+    background-color:rgba(246, 247, 235, 1);
+    padding:20px;
+}
 .select:focus{
+    background-color:rgba(246, 247, 235, 1);
      color: black;
 }
 
@@ -611,6 +634,7 @@ width: max-content;
 
 }
 .tr8 .btn{
+    font-family: 'Raleway', sans-serif;
     padding: 20px;
     font-weight: bolder;
     color: rgba(246, 247, 235, 1);
@@ -631,9 +655,9 @@ width: max-content;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
+    /* left: 0;
+    top: 0; */
+    width: 100% auto; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
@@ -644,16 +668,28 @@ width: max-content;
   /* Modal Content/Box */
   .modal-content {
       display: flex;
-      align-content: space-around;
-      align-items: center;
-        flex-direction: column;
-    background-color: #fefefe;
+      justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgba(246, 247, 235, 1);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    /* width: 80%; Could be more or less, depending on screen size */
+  }
+
+  .modal-content p {
+    font-family: 'Raleway', sans-serif;
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 20px;
   }
   
+  .modal-content img{
+      margin: 20px;
+  }
+
   /* The Close Button */
   .close {
     color: #aaa;

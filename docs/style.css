@@ -156,7 +156,7 @@ display: inline-block;
 .firstelement{
     height: 100%;
     width: 100%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Catamaran', sans-serif;
     font-weight: 900;
     background-color: rgba(246, 247, 235, 1);
     /* background-color: rgb(227, 205, 184,0.7);   */
@@ -218,8 +218,10 @@ display: inline-block;
 }
 
 .appdev, .gamedev, .webdev, .logprog{
+    color: rgba(246, 247, 235, 1);
+    font-family: 'Catamaran', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .secondrow, .thirdrow, .forthrow, .fifthrow, .sixthrow, .seventhrow, .ninthrow, .tenthrow, .elerow{

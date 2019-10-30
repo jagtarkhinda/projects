@@ -3,8 +3,19 @@
 ===MEDIA QUERIES===
 ========================*/
 
+
     /*MAX 1024*/
     @media screen and (max-width: 1024px){
+
+        .appdev, .gamedev, .webdev, .logprog{
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        .desc{
+            font-size: 14px;
+        }
+        
         /*******NAVIGATION CSS*******/
         .uparrow img{
             width: 32px;
@@ -375,7 +386,7 @@
     /*********SECOND COMP**********/
     .appdev, .gamedev, .webdev, .logprog{
         font-weight: 700;
-        font-size: 16px;
+        font-size: 17px;
     }
     
     /*********END SECOND COMP**********/
